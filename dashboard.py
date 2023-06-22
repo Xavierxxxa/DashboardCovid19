@@ -57,7 +57,7 @@ fig.update_layout(
                 autosize=True,
                 margin=go.layout.Margin(l=0, r=0, t=0, b=0),
                 showlegend=False,)
-df_data = df_states[df_states["estado"] == "RO"]
+df_data = df_states
 
 
 fig2 = go.Figure(layout={"template":"plotly_dark"})
